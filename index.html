@@ -7,6 +7,8 @@
     <title>Panda|Commercial Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- custom CSS  (it should be put after the bootstrap link so it can overrights since css read obeys the last line style)-->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -41,9 +43,9 @@
         </nav>
         <!-- banner -->
         <section class="mt-sm-3 mt-lg-5">
-            <div id="carouselExampleControls" class="container carousel slide p-5 rounded-4 bg-dark"
+            <div id="carouselExampleControls" class="container carousel slide p-5 rounded-4 panda-bg-dark"
                 data-bs-ride="carousel">
-                <div class=" carousel-inner">
+                <div class=" carousel-inner mt-3">
                     <div class="carousel-item  active">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center justify-content-center ps-5">
@@ -54,7 +56,7 @@
                                         to waste time in
                                         front of funky world.</p1>
                                     <h1 class="text-light">$420</h1>
-                                    <button type="button" class="btn btn-primary">Buy Now</button>
+                                    <button type="button" class="btn panda-btn-primary">Buy Now</button>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -71,7 +73,7 @@
                                         This is the best x-box in the world for people who just want to waste time in
                                         front of fake sports.</p1>
                                     <h1 class="text-light">$600</h1>
-                                    <button type="button" class="btn btn-primary">Buy Now</button>
+                                    <button type="button" class="btn panda-btn-primary">Buy Now</button>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -88,7 +90,7 @@
                                         This is the best tv in the world for people who just want to waste time in front
                                         of tv.</p1>
                                     <h1 class="text-light">$1200</h1>
-                                    <button type="button" class="btn btn-primary">Buy Now</button>
+                                    <button type="button" class="btn panda-btn-primary">Buy Now</button>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -113,7 +115,7 @@
     <main>
         <section>
             <!-- catagories -->
-            <div class="container text-center my-5">
+            <div class="container text-center my-5 catagory-img">
                 <div class="row g-5">
                     <!-- single catagory -->
                     <div class="col-lg-4 col-md-6 col-sm-12">
@@ -165,7 +167,7 @@
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Pariatur ratione quibusdam similique dolorum </p>
                                 <h3>$299</h3>
-                                <a href="#" class="btn btn-primary">Buy Now</a>
+                                <a href="#" class="btn panda-btn-primary">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -177,7 +179,7 @@
                                 <p class="card-text">This is a longer card with supporting text below as a natural
                                     lead-in to additional.</p>
                                 <h3>$599</h3>
-                                <a href="#" class="btn btn-primary">Buy Now</a>
+                                <a href="#" class="btn panda-btn-primary">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -189,7 +191,7 @@
                                 <p class="card-text">This is a longer card with supporting text below as a natural
                                     lead-in to additional.</p>
                                 <h3>$399</h3>
-                                <a href="#" class="btn btn-primary">Buy Now</a>
+                                <a href="#" class="btn panda-btn-primary">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -207,7 +209,7 @@
                                 <h3>$199</h3>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Pariatur ratione quibusdam similique dolorum </p>
-                                <a href="#" class="btn btn-primary">Buy Now</a>
+                                <a href="#" class="btn panda-btn-primary">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -219,7 +221,7 @@
                                 <h3>$199</h3>
                                 <p class="card-text">This is a longer card with supporting text below as a natural
                                     lead-in to additional.</p>
-                                <a href="#" class="btn btn-primary">Buy Now</a>
+                                <a href="#" class="btn panda-btn-primary">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -231,7 +233,7 @@
                                 <h3>$499</h3>
                                 <p class="card-text">This is a longer card with supporting text below as a natural
                                     lead-in to additional.</p>
-                                <a href="#" class="btn btn-primary">Buy Now</a>
+                                <a href="#" class="btn panda-btn-primary">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -239,14 +241,14 @@
             </div>
         </section>
         <section id="subscribe" style="height:300px;"
-            class="container d-flex justify-content-center align-items-center rounded-3 bg-dark my-5 p-5 ">
+            class="container d-flex justify-content-center align-items-center rounded-3 panda-bg-dark my-5 p-5 ">
             <!-- subscribe -->
             <div>
                 <h2 class="text-white">Lets stay in touch!</h2>
                 <p class="text-white">Get updates on sales, specials and more</p>
                 <input type="email" class="form-control" id="exampleFormControlInput1"
                     placeholder="Please enter you e-mail here">
-                <button type="submit" class="btn btn-primary my-3">Submit</button>
+                <button type="submit" class="btn panda-btn-primary my-3">Submit</button>
             </div>
         </section>
     </main>
